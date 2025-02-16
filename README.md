@@ -3,6 +3,7 @@ This is a full-stack Helpdesk application with both frontend and backend hosted 
 ## 🛠Getting Started
 To run the project locally, follow these steps:
 
+
 1. Clone the repository:
    
    ```bash
@@ -21,9 +22,4 @@ To run the project locally, follow these steps:
 
    ```bash
    npm run start
-
-## Deployment
-The project is deployed on Render. You can access it here:
-
-🔗 Live Demo: [Helpdesk App on Render](https://helpdesk-hkvy.onrender.com)
 
