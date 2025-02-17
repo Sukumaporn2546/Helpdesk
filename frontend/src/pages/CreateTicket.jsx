@@ -114,7 +114,7 @@ const CreatePage = () => {
               border={"none"}
               p={3}
               w="full"
-              onClick={handleAddTicket}
+              onClick={() => { handleAddTicket(); handleCancel(); }}
             >
               Create
             </Button>

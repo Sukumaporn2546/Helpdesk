@@ -5,7 +5,7 @@ import { IoTicketOutline } from "react-icons/io5";
 
 
 const Navbar = () => {
-    
+
     return (
         <Box
             as="nav"
@@ -25,7 +25,7 @@ const Navbar = () => {
                     {/* Title */}
                     <Text
                         fontSize={26}
-                        fontWeight="medium"                        
+                        fontWeight="medium"
                         color="white"
                     >
                         🖥️ Helpdesk Support Ticket Management
@@ -33,21 +33,21 @@ const Navbar = () => {
 
                     {/* Button */}
                     <HStack spacing={2} alignItems="center">
-                    <Link href="/" className="text-decoration-none">
-                        <Button
+                        <Link href="/" className="text-decoration-none">
+                            <Button
                                 bg="#61baae"
                                 color="white"
                                 _hover={{ bg: "#33beae", transform: "scale(1.05)", transition: "all 0.2s ease" }}
                                 borderRadius="md"
                                 boxShadow="lg"
                                 border={"none"}
-                                p={4}
+                                p={3}
                             >
                                 <IoTicketOutline size={30} />
                                 All Tickets
                             </Button>
                         </Link>
-                        
+
                         <Link href="/create" className="text-decoration-none">
                             <Button
                                 bg="#61baae"
@@ -61,7 +61,7 @@ const Navbar = () => {
                                 <CiSquarePlus size={28} />
                                 New Ticket
                             </Button>
-                        </Link>                      
+                        </Link>
                     </HStack>
                 </Flex>
             </Container>
